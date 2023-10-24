@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap" rel="stylesheet">
+    <title>Odin recipes</title>
 </head>
+
 <body>
-    <h1>Odin recipes</h1>
-    <a href="./recipes/lasagna.html">Lasagna</a>
+    <div id="general-container">
+        <header id="hero">
+            <h1>The Odin recipes</h1>
+
+            <div id="recipes-anchors">
+                <a href="#recipes-section">Recipes</a>
+            </div>
+        </header>
+
+
+        <main id="recipes-section">
+
+            <h2>Recipes</h2>
+
+            <ul id="recipes-elements">
+
+                <li id="lasagna-link"><a href="./recipes/lasagna.html">Lasagna</a></li>
+                <img src="images/lasagna.jpg" alt="Lasagna photo" height="500px">
+
+
+
+                <li id="chicken-link"><a href="./recipes/chicken.html">Chicken tenders</a></li>
+                <img src="images/chickentenders.jpg" alt="Chicken tenders image" height="500px">
+
+
+
+                <li id="chilaquiles-link"><a href="./recipes/chilaquiles.html">Chilaquiles verdes</a></li>
+                <img src="images/chilaquiles.jpg" alt="Chilaquiles verdes image" height="500px">
+
+            </ul>
+        </main>
+
+        <footer id="index-footer">
+            <p>Thank you for your visit</p>
+        </footer>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,328 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h1, h2{
+    font-family: 'Bebas Neue', sans-serif;
+    }
+
+#genera-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+#hero h1{
+    color: black;
+}
+
+#recipes-anchors{
+    margin-top: 15px;
+}
+
+#recipes-anchors a{
+background-color: blueviolet;
+border-radius: 50px;
+padding: 5px 10px 5px 10px;
+color: white;
+cursor: pointer;
+font-size: 1.2rem;
+}
+
+#recipes-anchors a:hover{
+background-color: black;
+font-weight: bold;
+}
+
+#recipes-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#recipes-section h2{
+    color: black;
+    font-size: 4rem;
+    padding-top: 50px;
+}
+
+#recipes-elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#recipes-elements li{
+    padding: 50px 0px 50px 0px;
+}
+
+#recipes-elements a{
+    font-size: 2.7rem;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 50px;
+    padding: 5px 17px 5px 17px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+#recipes-elements a:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+img{
+    border-radius: 25px;
+    box-shadow: 5px 5px 25px black;
+}
+
+#index-footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 7px 7px 25px black;
+    margin: 100px 200px 0px 200px;
+}
+
+span{
+    font-weight: bold;
+}
+
+/* Lasagna page */
+#lasagna-general-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#lasagna-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0px 100px 0px;
+}
+
+#lasagna-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 25px 0px 100px 0px;
+}
+#lasagna-ingredients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0px 100px 0px;
+    max-width: 700px;
+}
+
+#lasagna-steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 25px 0px 100px 0px;
+}
+
+#lasagna-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 7px 7px 25px black;
+    margin: 0px 225px 0px 225px;
+}
+
+#lasagna-footer a{
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+}
+
+#lasagna-footer a:hover{
+    background-color: black;
+}
+
+/* chicken page */
+
+#chicken-general-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#chicken-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0px 100px 0px;
+}
+
+#chicken-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 25px 0px 100px 0px;
+}
+#chicken-ingredients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0px 100px 0px;
+    max-width: 700px;
+}
+
+#chicken-steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 25px 0px 100px 0px;
+}
+
+#chicken-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 7px 7px 25px black;
+    margin: 0px 225px 0px 225px;
+}
+
+#chicken-footer a{
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+}
+
+#chicken-footer a:hover{
+    background-color: black;
+}
+
+/* chilaquiles page */
+
+#chilaquiles-general-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#chilaquiles-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0px 100px 0px;
+}
+
+#chilaquiles-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 25px 0px 100px 0px;
+}
+#chilaquiles-ingredients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0px 100px 0px;
+    max-width: 700px;
+}
+
+#chilaquiles-steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 25px 0px 100px 0px;
+}
+
+#chilaquiles-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 50px;
+    font-weight: bold;
+    box-shadow: 7px 7px 25px black;
+    margin: 0px 225px 0px 225px;
+}
+
+#chilaquiles-footer a{
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+}
+
+#chilaquiles-footer a:hover{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
